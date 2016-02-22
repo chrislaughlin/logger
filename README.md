@@ -1,2 +1,3 @@
-# logger
-Global logger wrapper 
+# Logger
+
+A global logger wrapper for any JavaScript application.
