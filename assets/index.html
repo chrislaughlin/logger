@@ -20,7 +20,10 @@
 
         requirejs(['jquery', 'Logger'], function($, Logger) {
             $(function() {
-                console.log(App);
+                console.log(Logger);
+                Logger.config({on: true});
+                Logger.log('test message');
+                Logger.info('test message');
             });
         })
     </script>
