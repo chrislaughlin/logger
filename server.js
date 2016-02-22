@@ -1,7 +1,7 @@
 var path = require('path');
 var express = require('express');
 var app = express();
-var publicPath = __dirname + '/public';
+var publicPath = __dirname + '/assets';
 var mockDataPath = __dirname + '/mock_data/';
 app.use(express.static(publicPath));
 
